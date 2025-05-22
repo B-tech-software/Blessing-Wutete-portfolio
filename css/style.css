@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+    background-color: rgb(23, 22, 22);
+    color: rgb(128, 187, 222);
+    font-family: sans-serif;
+}
+h1,h2, h3, h4, h5, h6{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: rgb(231, 215, 215);
+    font-weight: 700;
+}   
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: rgb(46, 10, 122);
+    
+}
+.skilzstylz{
+    color: blue;
+    margin-left:80px;
+}
+
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.text-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(255, 255, 255);
+
+}
+
+.text-brand1{
+    font-size: 25px;
+}
+
+.bg-base{
+    background-color: rgba(36, 41, 39, 0.932);
+}
+.shadow-effect{
+    transition: all 0.3s ;
+}
+.shadow-effect:hover{
+    box-shadow: -10px 10px 0 0 rgba(109, 107, 235, 0.5);
+    transform: translateY(-4px);
+}
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: rgb(99, 99, 4);
+
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 2px solid rgb(255, 255, 255,0.1);
+    
+}
+.kala{
+    color: #b8aaaa;
+}
+    
+.wordstylz{
+    color: rgb(85, 3, 3);
+}
+
+.revieweffect{
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    font-weight: 500;
+    color: white;
+    border-style: calc(1.1);
+    border-radius: 10px;
+    box-shadow: 0 0 0 9px rgba(1, 73, 141, 0.5);
+
+}
+.revieweffect:hover{
+    transform: scaleY(1.2);
+    transform-style: preserve-3d;
+    transition:all 0.6s ;
+    
+}
+
+
+
+/*NavBar  codee?*/
+.navbar .nav-link{
+    font-weight: 900;
+    text-transform: uppercase;
+    color:rgba(1, 46, 21, 0.961);
+}
+.navbar .nav-link:hover{
+    transform: scaleY(1.1);
+    transform: scaleX(1.1);
+    color:rgb(30, 43, 23)
+
+
+}
+
+.navbar .nav-link::after{
+    background-color: brown;
+
+}
+.space{
+    margin-left: 150px;
+}
+
+.navbar{
+    background-color: hsl(220, 39%, 95%);
+}
+.navbar .nav-link.active{
+    color: rgb(14, 61, 46);
+}
+.buttoneffect{ 
+    background-color: rgb(7, 84, 53);
+    border-style: solid;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px rgba(101, 137, 8, 0.5);
+}
+.buttoneffect:hover{
+    background-color:rgb(100, 236, 9) ;
+    color: rgb(51, 48, 48);
+    box-shadow: 0 0 0 4px rgba(5, 99, 139, 0.5);
+    transition: all 0.9s ease;
+}
+.bolded{
+    font-weight: 800;
+}
+.btn{
+    padding: 12px 32px;
+    font-weight: 700px;
+
+}
+.btn-brand{
+    background-color: rgb(3, 59, 40);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+.btn-brand:hover,
+.btn-brand:focus{
+    background-color: rgb(31, 31, 31);
+    color: rgb(15, 17, 78);
+    border-color: aliceblue;
+}
+.hedingskils{
+    margin-left: 160px;
+
+}
+
+progress{
+    width: 100%;
+    height: 20px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#home{
+    background: url('../images/new\ backimg.png');
+    background-size: cover;
+    border-style: solid;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ .skill-row {
+    animation: fadeInUp 0.8s ease-in-out;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Add a little style to the skill name */
+  .skill-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  /* Optional: make progress bar text white and stylish */
+  .progress-bar {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  /* Optional: a soft section background */
+  .skills-section {
+    background: #2e2e2e;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+.skills-section:hover{
+    box-shadow: 0 0 0 9px rgba(11, 101, 3, 0.5);
+    transform: translateY(2px);
+}
+/*Media Queries*/
+
+
+
+@media (min-width:992px) {
+    .navbar {
+        min-height: 100vh;
+        width: 200px;
+        background-color: #b8aaaa;
+    }
+
+    .navbar-brand img{
+        border: 8px solid rgb(2, 55, 8);
+    }
+    .navpic{
+        height: 200px;
+    transform: rotate(180deg);
+    }
+
+/*Content Wrapper*/
+#contentwrapper{
+    margin-left: 200px;
+
+}
+/**The home section button*/
+
+
+.btn{
+    padding: 12px 32px;
+    font-weight: 700px;
+
+}
+.btn-brand{
+    background-color: rgb(3, 59, 40);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+.btn-brand:hover,
+.btn-brand:focus{
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 59, 40);
+    border-color: aliceblue;
+}
+.link-custom{
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    color: rgb(88, 88, 237);
+}
+.link-custom::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(6, 6, 107);
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.link-custom:hover::after{
+    width: 100%;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+}
+
+/*Card Custom   style this is style for the card*/
+.card-custom .card-custom-img{
+overflow: hidden;
+}
+.card-custom-img img{
+    transition: all 0.3s ease;
+}
+.card-custom:hover .card-custom-img img{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.abouteffect img{
+    height: 250px;
+    transition: all 0.3s ease;
+}
+.abouteffect img:hover{
+    transform:scaleX(1.1);
+}
+.abouteffect img{
+    transition: all 0.3s ease;
+}
+.abouteffect:hover{
+    box-shadow: 0 0 0 9px rgba(11, 101, 3, 0.5);
+    transform: translateY(2px);
+
+}
+.abouteffect{
+    height: 250px;
+    width: 200px;
+    margin-top: 50px;
+}
+.buttoneffect{ 
+    background-color: rgb(7, 84, 53);
+    border-style: solid;
+    font-weight: 500;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px rgba(101, 137, 8, 0.5);
+}
+.buttoneffect:hover{
+    background-color:rgba(10, 110, 242, 0.137) ;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 4px rgba(5, 99, 139, 0.5);
+    transition: all 0.9s ease;
+    transform:scaleX(1.1);
+}
+}
+
+#contact .form-control{
+    background-color:rgba(85, 88, 87, 0.932);
+    color: whitesmoke;
+    border-style: outset;
+
+}
+
+#contact .form-control:hover{
+transform: matrix3d(1.2);
+}
+.form-control::placeholder{
+    color:cornsilk
+}
+
+.credit{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+/*Social Icons*/
+.social-icons{
+    margin-left: 300px;
+    padding-left: 12px;
+    padding-right: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(78, 78, 79);
+
+}
+.social-icons a {
+    width: 60;
+    padding-left: 25px;
+    height: 60;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 24px;
+}
+/* From Uiverse.io by TaniaDou */ 
+  
+  /* This is the star link
+  <i class="lar la-star"></i>*/
+
+
+
+  /* styles when the phone is small*/
+  @media(max-width:250px){
+
+.anotherstlyle {
+    width: 600px;
+}
+
+
+
+
+
+
+  }
+    
+  
+
