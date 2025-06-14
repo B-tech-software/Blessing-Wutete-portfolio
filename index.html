@@ -3,492 +3,624 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TheCodeFather</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/aos.css">
-    <link rel="stylesheet" href="./css/line-awesome.min.css">
+    <title>Blessing Wutete | AI & Software Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    
+    <style>
+        .form-control::placeholder {
+           color: var(--brand-purple) !important;
+           opacity: 1; /* Override default opacity */
+       }
+        :root {
+            --bg-dark: #111827;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --brand-purple: #8A2BE2;
+            --brand-pink: #FF69B4;
+            --text-light: #F9FAFB;
+            --text-secondary: #9CA3AF;
+            --border-color: rgba(255, 255, 255, 0.1);
+        }
 
-</head>
-<body   data-bs-spy="scroll" data-bs-target=".navbar">
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg fixed-top rounded-4">
-    <div class="container flex-lg-column">
-      <a class="navbar-brand mx-lg-auto  mb-lg-4" href="#">
-        <span class="h3 fw-bold  d-block d-lg-none">TheCodeFather </span>
-        <img src="./images/person.png" class="d-none nvpic d-lg-block rounded-circle" >
-    </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  mb-lg-0 ms-auto flex-lg-column text-lg-center">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#about">About</a>
-          </li>
-         
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#reviews">Reviews</a>
-          </li>
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+        }
 
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#contact">Contact</a>
-          </li>
-          
-
-
-
-        </ul>
-        <!--<form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-        --->
-      </div>
-    </div>
-  </nav>
-
-<!--Navbar ending-->
-
-<!---Content Wrapper-->
-<div  id="contentwrapper">
-<!---Home  section -->
-<section id="home" class="full-height  px-lg-5" >
-<div class="container">
-  <div class="row">
-    <div class="col-lg-10">
-      <p  class="display-4 desstyles text-nowrap fw-bold" ><pre> <span  data-aos="fade-up"    class="text-brand text-brand1">
-    | Innovater |
-   | AI & Machine Learnig Engineer |
-    | Robotics &IOT Engineer |
-    | Software Engineer |
-      </span> </pre></p>
-    <p class="lead kala fw-bold"> <span class="text-brand">I am a passionate technology professional specializing in robotics, artificial intelligence, automation, and software development. I thrive on creating innovative solutions that combine cutting-edge technologies to improve efficiency and solve real-world problems.</span>  </p>
-    <a href="#projects" class="btn btn-brand">Explore MyWork</a>
-    <a href="#" class="link-custom">Call:(+263781192841)</a>
-    </div>
-  </div>
-</div>
-
-</section>
-
-<!---Services Sectionnn-->
-<section  id="services" class="full-height px-lg-5">
-<div  class="container">
-  <div class="row pb-4">
-    <div class="col-lg-8">
-      <h6 class="text-brand">SERVICES</h6>
-      <h1>Services that i provide</h1>
-    </div>
-  </div>
-
-<div class="row gy-4">
-  <div class="col-md-4">
-    <div class="service p-4 bg-base rounded-4 shadow-effect">
-    <div class="iconbox rounded-3">
-      <i class="las la-feather"></i>
-      </div>
-      <h5 class="mt-4 mb-4"> AI and MachineLearning</h5>
-      <p>I Develop custom AI projects that reduce human need .Ai is awesome and people love it </p>
-      <a href="#" class="link-custom">Read More</a>
-      
-     </div>
-  </div>
-  <div class="col-md-4">
-    <div class="service p-4 bg-base rounded-4 shadow-effect">
-    <div class="iconbox rounded-3">
-      <i class="las la-pencil-ruler"></i>
-    </div>
-      <h5 class="mt-4 mb-4">  Web Development</h5>
-      <p>I Develop beautiful Websites that are user appealing and responsive on any device </p>
-      <a href="#" class="link-custom">Read More</a>
-      
-     </div>
-  </div>
-  <div class="col-md-4">
-    <div class="service p-4 bg-base rounded-4 shadow-effect">
-    <div class="iconbox rounded-3">
-      <i class="las la-laptop-code"></i>
-    </div>
-      <h5 class="mt-4 mb-4">App Development</h5>
-      <p>I Develop applications that are user-friendly and responsive on any device.</p>
-      <a href="#" class="link-custom">Read More</a>
-      
-     </div>
-  </div>
-
-</div>
-
-</div>
-</section>
-<!---Services Sectionnn-->
-<!---Work Section-->
-
-<section id="projects"  class="full-height px-lg-5">
-  <div class="container">
-    <div class="row pb-4">
-      <div class="col-md-8">
-        <h6 class="text-brand">WORK</h6>
-        <h1>My Recent Projects</h1>
-      </div>
-  </div>
-  <div class="row gy-4">
-    <div class="col-md-6">
-   <div class="card-custom rounded-4 bg-base shadow-effect">
-    <div class="card-custom-img rounded-4">
-      <img class="rounded-4"  src="./images/project-1.jpg" alt="">
-    </div>
-    <div class="card-custom-content p-4">
-      <h4>Restaurant Website</h4>
-      <p>A beautiful restaurant website showcasing the menu and ambiance.</p>
-      <a href="#" class="link-custom">Read More</a>
-    </div>
-   </div>
-
-    </div>
-    <div class="col-md-6">
-      <div class="card-custom rounded-4 bg-base shadow-effect">
-       <div class="card-custom-img rounded-4">
-         <img class="rounded-4"  src="./images/project-2.png" alt="">
-       </div>
-       <div class="card-custom-content p-4">
-         <h4>A school Website</h4>
-         <p>A beautiful school website showcasing all the details about that school .</p>
-         <a href="#" class="link-custom">Read More</a>
-       </div>
-      </div>
-   
-       </div>
-       <div class="col-md-6">
-        <div class="card-custom rounded-4 bg-base shadow-effect">
-         <div class="card-custom-img rounded-4">
-           <img class="rounded-4"  src="./images/project-3.png" alt="">
-         </div>
-         <div class="card-custom-content p-4">
-           <h4>A Tech Startup Website</h4>
-           <p>A beautiful looking website that allows people to view information about the tech startup as well as allowing users to download the apps that the company makes</p>
-           <a href="#" class="link-custom">Read More</a>
-         </div>
-        </div>
-     
-         </div>
-         <div class="col-md-6">
-          <div class="card-custom rounded-4 bg-base shadow-effect">
-           <div class="card-custom-img rounded-4">
-             <img class="rounded-4"  src="./images/project-4.png" alt="">
-           </div>
-           <div class="card-custom-content p-4">
-             <h4>Restaurant Website</h4>
-             <p>A beautiful restaurant website showcasing the menu and ambiance.</p>
-             <a href="#" class="link-custom">Read More</a>
-           </div>
-          </div>
-       
-           </div>
-
-  </div>
-</section>
-<!---Work Section-->
-
-<!---About Section-->
-<section id="about" class="full-height px-lg-5">
- <div class="container">
-  <div class="row pb-4">
-    <div class="col-md-8">
-      <h6 class="text-brand">ABOUT</h6>
-      <h1>ABOUT-ME</h1>
-    </div>
-</div>
-<div  class="row">
-<div class="col-lg-6">
-  <h3 class="mb-4">Education</h3>
-<div class="row gy-4">
-  <div class="col-12">
-    <div class="bg-base p-4 rounded-4 shadow-effect">
-      <h5>Bachelors in Software Engineering</h5>
-      <p class="text-brand mb-3 bolded">UNIVERSITY OF ZIMBABWE(2024-2028)</p>
-      <p class="mb-0">Currently enroled in a Bachelor of Scinece in Software Engineering at the University of Zimbabwe under the faculty of Computer Engineering Informatics and Communications.The degree is a four year degree in wich we learn all the fundamendal concepts of Software Engineering ,wich includes metholidies used and a heavy hands on aproach</p>
-      
-    </div>
-  </div>
-  <div class="col-12">
-    <div class="bg-base p-4 rounded-4 shadow-effect">
-      <h5>Diploma in Cyber Security</h5>
-      <p class="text-brand mb-3 bolded">ALISON(2025)</p>
-      <p class="mb-0">Completed  a Diploma in Cyber Security with Alison ,i acquired kwowledge of all cyber security essentials wich involves network security,cloud security and ethical hacking.The program made me aware of how to handle security vulnerability during development as well as developing software with security in mind to reduce Cyber SEcueity threats</p>
-      
-    </div>
-  </div>
-
-  <div class="col-12">
-    <div class="bg-base p-4 rounded-4 shadow-effect">
-      <h5>Certificate in Artificial Inteligent</h5>
-      <p class="text-brand mb-3 bolded">ALISON & IBM(2024)</p>
-      <p class="mb-0">Complete a certificate in Artificial Inteligence with  Alison and IBM ,this course involved the introduction of AI and Machine learning wich is eesential in today's digital world.I learned all machine learning fundamendals and applications as well as to how to develop Machine Learning models for different applications wich made me develop my first Ml Model(ATLAS AI)</p>
-      
-    </div>
-  </div>
-
-</div>
-
-</div>
-<div class="col-lg-6 mt-4">
-  <div class="container rounded-5 bg-base abouteffect mt-4">
-    <img  class="rounded-3 abtimg" src="images/-Blessingremoved.png" alt="">
-  </div>
- 
-
-
-<div class="container skills-section mt-5">
-  <h3 class="text-center mb-4">My Skills</h3>
-
-  <!-- Skill: HTML -->
-  <div class="row align-items-center mb-3 skill-row">
-    <div class="col-12 col-md-4 skill-name">HTML/CSS</div>
-    <div class="col-12 col-md-8">
-      <div class="progress">
-        <div class="progress-bar bg-danger" style="width: 90%;">90%</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skill: CSS -->
-  <div class="row align-items-center mb-3 skill-row">
-    <div class="col-12 col-md-4 skill-name">JavaScript</div>
-    <div class="col-12 col-md-8">
-      <div class="progress">
-        <div class="progress-bar bg-primary" style="width: 80%;">80%</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skill: JavaScript -->
-  <div class="row align-items-center mb-3 skill-row">
-    <div class="col-12 col-md-4 skill-name">Python(AI)</div>
-    <div class="col-12 col-md-8">
-      <div class="progress">
-        <div class="progress-bar bg-warning" style="width: 70%;">70%</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skill: Bootstrap -->
-  <div class="row align-items-center mb-3 skill-row">
-    <div class="col-12 col-md-4 skill-name">Bootstrap</div>
-    <div class="col-12 col-md-8">
-      <div class="progress">
-        <div class="progress-bar bg-info" style="width: 85%;">85%</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skill: Firebase -->
-  <div class="row align-items-center mb-3 skill-row">
-    <div class="col-12 col-md-4 skill-name">C#.Net</div>
-    <div class="col-12 col-md-8">
-      <div class="progress">
-        <div class="progress-bar bg-success" style="width: 60%;">60%</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skill: React -->
-  <div class="row align-items-center mb-3 skill-row">
-    <div class="col-12 col-md-4 skill-name">Firebase,MySql</div>
-    <div class="col-12 col-md-8">
-      <div class="progress">
-        <div class="progress-bar bg-secondary" style="width: 65%;">65%</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skill: UI/UX Design -->
-  <div class="row align-items-center mb-3 skill-row">
-    <div class="col-12 col-md-4 skill-name">React-native</div>
-    <div class="col-12 col-md-8">
-      <div class="progress">
-        <div class="progress-bar bg-dark" style="width: 75%;">75%</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-  <div class="text-center mt-4 "> 
-    <button class="buttoneffect">DownloadCV</button>
-  </div>
- 
-</div>
-</div>
-
- </div>
-</section>
-
-<!---About Section-->
-
-<!----Reveiws-->
-
-<section  id="reviews" class="full-height px-lg-5">
-  <div  class="container">
-    <div class="row pb-4">
-      <div class="col-lg-8">
-        <h6 class="text-brand">REVIEWS</h6>
-        <h1>See What my clients say</h1>
-      </div>
-    </div>
-
-    <div class="row"> 
-        <div class="col-md-4">
-        <div  class="review bg-base p-4 revieweffect mt-4 rounded-4">
-          <div class="text-brand h4">
-            <i class="las la-star"></i>
-            <i class="las la-star"></i>
-            <i class="las la-star"></i>
-           
-          </div>
-          <p>My name is J.Mazango im the owner of the ChipJosh restaurant.I requested a website form TheCodeFather and i woul like to say i am pleased with the results,The website is working quite well and the customers are liking it too</p>
-        <div   class="person mb-0">
-          <h5>Mr Mazango(Restaurant Owner)</h5>
-        </div>
-        </div>  
-
+        h1, .h1 {
+            font-weight: 700;
+        }
         
+        .text-gradient {
+            background: linear-gradient(90deg, var(--brand-purple), var(--brand-pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .navbar {
+            transition: background-color 0.3s ease, padding 0.3s ease;
+        }
+        .navbar.scrolled {
+            background-color: rgba(17, 24, 39, 0.85);
+            backdrop-filter: blur(10px);
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .navbar .nav-link {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        .navbar .nav-link:hover,
+        .navbar .nav-link.active {
+            color: var(--text-light);
+        }
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .section {
+            padding: 100px 0;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .hero .typed-cursor {
+            font-size: 3.5rem;
+            color: var(--brand-pink);
+        }
+        
+        .btn-brand {
+            background: linear-gradient(90deg, var(--brand-purple), var(--brand-pink));
+            color: white;
+            font-weight: 600;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-brand:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(255, 105, 180, 0.2);
+            color: white;
+        }
+
+        .card-glass {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        .card-glass:hover {
+            transform: translateY(-10px);
+            border-color: var(--brand-purple);
+        }
+        .card-glass .iconbox {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, var(--brand-purple), var(--brand-pink));
+            color: white;
+            font-size: 28px;
+            border-radius: 10px;
+        }
+
+        .project-card .card-img-top {
+            aspect-ratio: 16/9;
+            object-fit: cover;
+        }
+        
+        .testimonial-card {
+            background-color: var(--bg-card);
+            border-radius: 15px;
+            padding: 30px;
+        }
+        .testimonial-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid var(--brand-purple);
+        }
+        .carousel-indicators [data-bs-target] {
+            background-color: var(--brand-pink);
+        }
+
+        .form-control {
+            background-color: var(--bg-card);
+            border-color: var(--border-color);
+            color: var(--text-light);
+        }
+        .form-control:focus {
+            background-color: var(--bg-card);
+            color: var(--text-light);
+            border-color: var(--brand-purple);
+            box-shadow: none;
+        }
+
+        footer {
+            border-top: 1px solid var(--border-color);
+        }
+
+<style>
+       :root {
+           --bg-dark: #111827;
+           --bg-card: rgba(255, 255, 255, 0.05);
+           --brand-purple: #8A2BE2;
+           --brand-pink: #FF69B4;
+           --text-light: #F9FAFB;
+           --text-secondary: #9CA3AF;
+           --border-color: rgba(255, 255, 255, 0.1);
+       }
+
+       body {
+           background-color: var(--bg-dark);
+           color: var(--text-light);
+           font-family: 'Inter', sans-serif;
+       }
+
+       h1, .h1 {
+           font-weight: 700;
+       }
+
+       .text-gradient {
+           background: linear-gradient(90deg, var(--brand-purple), var(--brand-pink));
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           background-clip: text;
+       }
+
+       .navbar {
+           transition: background-color 0.3s ease, padding 0.3s ease;
+       }
+       .navbar.scrolled {
+           background-color: rgba(17, 24, 39, 0.85);
+           backdrop-filter: blur(10px);
+           padding-top: 5px;
+           padding-bottom: 5px;
+       }
+       .navbar .nav-link {
+           color: var(--text-secondary);
+           font-weight: 500;
+       }
+       .navbar .nav-link:hover,
+       .navbar .nav-link.active {
+           color: var(--text-light);
+       }
+       .navbar-brand {
+           font-weight: 700;
+           font-size: 1.5rem;
+       }
+
+       .section {
+           padding: 100px 0;
+       }
+
+       .hero {
+           min-height: 100vh;
+           display: flex;
+           align-items: center;
+       }
+       .hero .typed-cursor {
+           font-size: 3.5rem;
+           color: var(--brand-pink);
+       }
+
+       .btn-brand {
+           background: linear-gradient(90deg, var(--brand-purple), var(--brand-pink));
+           color: white;
+           font-weight: 600;
+           padding: 12px 30px;
+           border: none;
+           border-radius: 50px;
+           transition: all 0.3s ease;
+           text-decoration: none;
+       }
+       .btn-brand:hover {
+           transform: scale(1.05);
+           box-shadow: 0 10px 20px rgba(255, 105, 180, 0.2);
+           color: white;
+       }
+
+       .card-glass {
+           background: var(--bg-card);
+           border: 1px solid var(--border-color);
+           border-radius: 15px;
+           backdrop-filter: blur(10px);
+           transition: all 0.3s ease;
+       }
+       .card-glass:hover {
+           transform: translateY(-10px);
+           border-color: var(--brand-purple);
+       }
+       .card-glass .iconbox {
+           width: 60px;
+           height: 60px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           background: linear-gradient(90deg, var(--brand-purple), var(--brand-pink));
+           color: white;
+           font-size: 28px;
+           border-radius: 10px;
+       }
+
+       .project-card .card-img-top {
+           aspect-ratio: 16/9;
+           object-fit: cover;
+       }
+
+       .testimonial-card {
+           background-color: var(--bg-card);
+           border-radius: 15px;
+           padding: 30px;
+       }
+       .testimonial-card img {
+           width: 80px;
+           height: 80px;
+           border-radius: 50%;
+           border: 3px solid var(--brand-purple);
+       }
+       .carousel-indicators [data-bs-target] {
+           background-color: var(--brand-pink);
+       }
+
+       .form-control {
+           background-color: var(--bg-card);
+           border-color: var(--border-color);
+           color: var(--text-light);
+       }
+       .form-control:focus {
+           background-color: var(--bg-card);
+           color: var(--text-light);
+           border-color: var(--brand-purple);
+           box-shadow: none;
+       }
+
+       footer {
+           border-top: 1px solid var(--border-color);
+       }
+
+       .form-control::placeholder {
+           color: var(--brand-purple) !important;
+           opacity: 1; /* Override default opacity */
+       }
+       /* --- Floating WhatsApp Button --- */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            color: #FFF;
+        }
+   </style>
+
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <a href="https://wa.me/263781192841?text=Hello%2C%20I%20saw%20your%20portfolio%20and%20I'm%20interested%20in%20your%20services." class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">BW.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-4">
-          <div  class="review bg-base revieweffect p-4 mt-4 rounded-4">
-            <div class="text-brand h4">
-              <i class="las la-star"></i>
-              <i class="las la-star"></i>
-              <i class="las la-star"></i>
-              <i class="las la-star"></i>
-              
-            </div>
-            <p>My name is L.Chenyika im founder of CyberSpace a local IT startup.I requested a website form TheCodeFather and i woul like to say i am pleased with the results,The website is working quite well and the customers are liking it too</p>
-          <div   class="person mb-0">
-            <h5>Mr Chenyika(Startup Founder)</h5>
-          </div>
-          </div>  
-  
-          
-          </div>
+    </nav>
 
-
-          <div class="col-md-4">
-            <div  class="review bg-base revieweffect p-4 mt-4  rounded-4">
-              <div class="text-brand  Justify-content-between  Justify-content-center">
-                <i class="las la-star"></i>
-                <i class="las la-star"></i>
-                <i class="las la-star"></i>
-                <i class="las la-star"></i>
-                <i class="las la-star"></i>
-              </div>
-              <p>My name is Mr.Bhunu im the headmaster  of the St Maryz High School .I requested a website form TheCodeFather and i woul like to say i am pleased with the results,The website is working quite well and the customers are liking it too</p>
-            <div   class="person mb-0 ">
-              <h5>Mr Bhunu(School HeadMaster)</h5>
-            </div>
-            </div>  
-    
-            
-            </div>
-
-       </div>
-
-  </div>
-</section>
-
-<!---Contact-->
-
-<section  id="contact" class="full-height px-lg-5">
-  <div  class="container">
-    <div class=" space mrow pb-4 Justify-content-center text-lg-center">
-      <div class="col-lg-8 pb-4">
-        <h6 class="text-brand">CONTACT</h6>
-        <h1>Interested in working with Me? Get in touch</h1>
-      </div>
-      <div class="col-lg-8">
-      <form action="https://formspree.io/f/xdkgbdyz" method="POST"            class="row g-lg-3 gy-3">
-        <div   class="form-group col-md-6"> 
-          <input type="text" class="form-control" placeholder="Enter your name">
-          </div>
-
-          <div   class="form-group col-md-6"> 
-            <input type="email" class="form-control"  name="email"  placeholder="Enter your email">
-            </div>
-
-            <div   class="form-group col-md-12"> 
-              <input type="text" class="form-control" name="subject" placeholder="Enter subject">
-              </div>
-
-              <div   class="form-group col-md-12"> 
-                <textarea  name="message" rows="4" class="form-control"  placeholder="Enter your message"> </textarea>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <p class="text-secondary" data-aos="fade-up">Hello, I'm Blessing Wutete</p>
+                    <h1 class="display-3" data-aos="fade-up" data-aos-delay="100">I'm a <span id="typed-text" class="text-gradient"></span></h1>
+                    <p class="lead text-secondary mt-3" data-aos="fade-up" data-aos-delay="200">I create innovative solutions that combine cutting-edge technologies to improve efficiency and solve real-world problems.</p>
+                    <a href="#portfolio" class="btn btn-brand mt-3" data-aos="fade-up" data-aos-delay="300">View My Work</a>
                 </div>
-                <div   class="form-group col-md-12"> 
-                  <button  type="submit"   class="btn btn-brand">ContactMe</button>
-                  </div>
-      
+            </div>
+        </div>
+    </section>
 
-      </form>
-    </div>
-    </div>
-  </div>
-</section>
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <img src="./images/bee.jpg" class="img-fluid rounded-3" alt="Blessing Wutete">
+                </div>
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="100">
+                    <h2 class="mb-4">About Me</h2>
+                    <p class="text-secondary">A passionate technology professional based in Harare, Zimbabwe. I specialize in the intersection of software, artificial intelligence, and robotics. My goal is to build intelligent systems that make a tangible impact.</p>
+                    <p class="text-secondary">Currently pursuing a Bachelor's in Software Engineering at the University of Zimbabwe, I am constantly learning and applying new skills in real-world projects, from developing secure applications to building machine learning models.</p>
+                    <a href="#" class="btn btn-brand mt-3">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!---Contact-->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="row text-center" data-aos="fade-up">
+                <div class="col-12">
+                    <h2 class="mb-4">Services I Provide</h2>
+                    <p class="text-secondary mx-auto w-75">I offer a range of services to bring your ideas to life, from intelligent automation to stunning digital experiences.</p>
+                </div>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-glass p-4 text-center h-100">
+                        <div class="iconbox mx-auto"><i class="fas fa-brain"></i></div>
+                        <h5 class="mt-4">AI & Machine Learning</h5>
+                        <p class="text-secondary">Developing custom AI models for automation, data analysis, and predictive insights.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-glass p-4 text-center h-100">
+                        <div class="iconbox mx-auto"><i class="fas fa-desktop"></i></div>
+                        <h5 class="mt-4">Web & App Development</h5>
+                        <p class="text-secondary">Creating beautiful, responsive websites and mobile apps that are fast and user-friendly.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-glass p-4 text-center h-100">
+                        <div class="iconbox mx-auto"><i class="fas fa-cogs"></i></div>
+                        <h5 class="mt-4">Robotics & IoT</h5>
+                        <p class="text-secondary">Building and programming smart devices and robotic systems for automation and control.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!---Footer-->
-<footer class="py-5 px-lg-5">
-<div class="container">
-  <div class="row Justify-content-between">
-    <div class="col-auto">
-   <p class="mb-0 credit"><h6>Developed by Blessing Wutete @  TheCodeFather</h6></p>
+    <section id="portfolio" class="section">
+        <div class="container">
+             <div class="row text-center" data-aos="fade-up">
+                <div class="col-12">
+                    <h2 class="mb-4">My Recent Projects</h2>
+                    <p class="text-secondary mx-auto w-75">Here are a few examples of projects I've worked on. Each one was an opportunity to solve a unique problem.</p>
+                </div>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-glass">
+                        <img src="https://placehold.co/600x400/111827/F9FAFB?text=Project+1" class="card-img-top" alt="Project 1">
+                        <div class="p-4">
+                            <h5>Restaurant Website</h5>
+                            <p class="text-secondary">A modern, responsive website for a local restaurant, featuring an online menu and reservation system.</p>
+                            <a href="#" class="btn btn-sm btn-brand">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-glass">
+                        <img src="https://placehold.co/600x400/111827/F9FAFB?text=Project+2" class="card-img-top" alt="Project 2">
+                        <div class="p-4">
+                            <h5>AI Customer Chatbot</h5>
+                            <p class="text-secondary">An NLP-based chatbot (ATLAS AI) to automate customer support and answer frequently asked questions 24/7.</p>
+                             <a href="#" class="btn btn-sm btn-brand">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-glass">
+                        <img src="https://placehold.co/600x400/111827/F9FAFB?text=Project+3" class="card-img-top" alt="Project 3">
+                        <div class="p-4">
+                            <h5>School Management System</h5>
+                            <p class="text-secondary">A web portal for a high school to manage student records, grades, and parent-teacher communication.</p>
+                             <a href="#" class="btn btn-sm btn-brand">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="row text-center" data-aos="fade-up">
+                <div class="col-12">
+                    <h2 class="mb-4">What My Clients Say</h2>
+                    <p class="text-secondary mx-auto w-75">I take pride in my work, and I'm thrilled to hear what my clients have to say about their experience.</p>
+                </div>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="100">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card w-75 mx-auto text-center">
+                            <img src="https://placehold.co/80x80/111827/F9FAFB?text=JM" class="rounded-circle mx-auto mb-3" alt="Client 1">
+                            <p class="text-secondary fst-italic">"Blessing delivered a fantastic website for my restaurant. It's beautiful, functional, and our customers love it. Highly recommended!"</p>
+                            <h6 class="mb-0 mt-3">Mr. Mazango</h6>
+                            <small class="text-secondary">Restaurant Owner</small>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card w-75 mx-auto text-center">
+                           <img src="https://placehold.co/80x80/111827/F9FAFB?text=LC" class="rounded-circle mx-auto mb-3" alt="Client 2">
+                            <p class="text-secondary fst-italic">"The website for our startup was exactly what we needed. The design is modern, and the user experience is seamless. A true professional."</p>
+                            <h6 class="mb-0 mt-3">Mr. Chenyika</h6>
+                            <small class="text-secondary">Startup Founder</small>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card w-75 mx-auto text-center">
+                           <img src="https://placehold.co/80x80/111827/F9FAFB?text=MB" class="rounded-circle mx-auto mb-3" alt="Client 3">
+                            <p class="text-secondary fst-italic">"I'm extremely pleased with the new school website. It has made communication with parents and students so much easier."</p>
+                            <h6 class="mb-0 mt-3">Mr. Bhunu</h6>
+                            <small class="text-secondary">School Headmaster</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators position-static mt-4">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="col-auto  rounded-circle">
-      <div class="social-icons ">
-        <a href="https://www.facebook.com/"    class="fa-brands fa-facebook" target="_blank"></a>
-        <a href="https://wa.me/+263781192841"     class="fa-brands fa-whatsapp" target="_blank"></a>
-        <a href="https://www.linkedin.com/in/blessing-wutete-013aa52b0"  target="_blank"   class="fa-brands fa-linkedin"></a>
-        <a href="https://github.com/B-tech-software"     class="fa-brands fa-github" target="_blank"></a>
-     </div>
-    </div>
-  </div>
-</div>
-</footer>
-<!--Footer-->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="row text-center" data-aos="fade-up">
+                <div class="col-12">
+                    <h2 class="mb-4">Let's Build Something Amazing</h2>
+                    <p class="text-secondary mx-auto w-75">Have a project in mind? I'd love to hear about it. Fill out the form below or get in touch via email.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                    <form action="https://formspree.io/f/xdkgbdyz" method="POST" class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control p-3" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control p-3" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <input type="text" class="form-control p-3" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <textarea name="message" rows="5" class="form-control p-3" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="form-group col-12 text-center">
+                            <button type="submit" class="btn btn-brand">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!---Reveiws-->
+ <footer class="section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white">About Me</h5>
+                    <p class="text-secondary">A passionate software engineer and Tech survey from Harare, Zimbabwe, dedicated to building innovative and impactful technology solutions.</p>
+                </div>
 
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-secondary">About</a></li>
+                        <li><a href="#services" class="text-secondary">Services</a></li>
+                        <li><a href="#portfolio" class="text-secondary">Portfolio</a></li>
+                        <li><a href="#contact" class="text-secondary">Contact</a></li>
+                    </ul>
+                </div>
 
-</div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white">Contact Info</h5>
+                     <ul class="list-unstyled">
+                        <li class="d-flex align-items-start text-secondary mb-2">
+                            <i class="fas fa-map-marker-alt me-3 mt-1 text-gradient"></i>
+                            <span>Harare, Zimbabwe</span>
+                        </li>
+                        <li class="d-flex align-items-start text-secondary">
+                            <i class="fas fa-envelope me-3 mt-1 text-gradient"></i>
+                            <a href="mailto:your.email@example.com" class="text-secondary">munengebee@gmail.com
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white">Follow Me</h5>
+                    <p class="text-secondary">Stay connected on social media.</p>
+                     <div>
+                        <a href="https://github.com/B-tech-software" class="text-secondary fs-5 me-3"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/blessing-wutete-013aa52b0" class="text-secondary fs-5 me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/" class="text-secondary fs-5 me-3"><i class="fab fa-facebook-f"></i></a>
+                        <!--Whataspp link-->
+                        <a href="https://wa.me/263781192841?text=Hello%2C%20I%20saw%20your%20portfolio%20and%20I'm%20interested%20in%20your%20services." class="text-secondary fs-5"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: var(--border-color);">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="mb-0 text-secondary small">© 2025 Blessing Wutete. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<!---Content Wrapper-->
-
-
-
-
-    <script>src=".js/bootstrap.bundle.min.js"</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-   
-    <script src=".js/aos.js"></script>
-    <script src="/index.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        // AOS Initialization
+        AOS.init({
+            duration: 800,
+            offset: 120,
+            once: true
+        });
+
+        // Typed.js Initialization
+        var typed = new Typed('#typed-text', {
+            strings: ['AI Engineer', 'Software Developer', 'Robotics Enthusiast', 'Problem Solver'],
+            typeSpeed: 50,
+            backSpeed: 25,
+            backDelay: 2000,
+            loop: true
+        });
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
